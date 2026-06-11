@@ -1,0 +1,1 @@
+console.log("Fábrica de Clientes cargada correctamente");
