@@ -1418,6 +1418,33 @@ footer a:hover {
     border-top: 1px solid rgba(17, 17, 17, 0.08);
 }
 
+.mobile-ig-logo {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #111111;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    box-shadow: 0 10px 24px rgba(17, 17, 17, 0.08);
+    transition: 0.22s ease;
+}
+
+.mobile-ig-logo svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+.mobile-ig-logo:hover {
+    background: #111111;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+
 /* responsive pc intermedio */
 
 @media (max-width: 980px) {
@@ -1460,6 +1487,18 @@ footer a:hover {
 
     body {
         background: #f7f4ec;
+    }
+}
+
+@media (max-width: 390px) {
+    .mobile-ig-logo {
+        width: 38px;
+        height: 38px;
+    }
+
+    .mobile-ig-logo svg {
+        width: 20px;
+        height: 20px;
     }
 }
 
